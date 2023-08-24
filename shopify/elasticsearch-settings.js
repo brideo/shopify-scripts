@@ -12,11 +12,12 @@ async function fetchSettings()
 
         if (response.ok) {
             window.elasticConfig = await response.json();
-        } else {
-            console.error('API response was not ok:', response);
+            var event = new Event('elasticsearchSettingsLoaded');
+            
+            window.dispatchEvent(event);
         }
     } catch (error) {
-        console.error('There was a problem with the fetch operation:', error);
+        
     }
 }
 
