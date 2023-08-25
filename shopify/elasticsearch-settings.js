@@ -12,9 +12,10 @@ async function fetchSettings()
 
         if (response.ok) {
             window.elasticConfig = await response.json();
-            var event = new Event('elasticsearchSettingsLoaded');
-            
-            window.dispatchEvent(event);
+            if (window.elasticConfig.is_enabled) {
+                var event = new Event('elasticsearchSettingsLoaded');
+                window.dispatchEvent(event);
+            }
         }
     } catch (error) {
         
