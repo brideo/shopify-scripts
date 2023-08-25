@@ -1,4 +1,4 @@
-var apiEndpoint = 'https://develop-surgery-communications-headquarters.trycloudflare.com/api/get-settings?shop=' + Shopify.shop;
+var apiEndpoint = 'https://reward-southern-peers-paxil.trycloudflare.com/api/get-settings?shop=' + Shopify.shop;
 
 async function fetchSettings()
 {
