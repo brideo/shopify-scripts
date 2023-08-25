@@ -1,4 +1,4 @@
-var apiEndpoint = 'https://reward-southern-peers-paxil.trycloudflare.com/api/get-settings?shop=' + Shopify.shop;
+var apiEndpoint = 'https://mh-francis-vendor-rapids.trycloudflare.com/api/get-settings?shop=' + Shopify.shop;
 
 async function fetchSettings()
 {
