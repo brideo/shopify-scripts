@@ -1,4 +1,4 @@
-var apiEndpoint = 'https://arena-dealt-recommends-accessing.trycloudflare.com/api/get-settings?shop=' + Shopify.shop;
+var apiEndpoint = 'https://malawi-whale-failures-scenario.trycloudflare.com/api/get-settings?shop=' + Shopify.shop;
 
 async function fetchSettings()
 {
