@@ -1,4 +1,4 @@
-var apiEndpoint = 'https://webmasters-serious-lang-needed.trycloudflare.com?shop=' + Shopify.shop;
+var apiEndpoint = 'https://webmasters-serious-lang-needed.trycloudflare.com/api/get-settings?shop=' + Shopify.shop;
 
 async function fetchSettings()
 {
