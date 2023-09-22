@@ -1,4 +1,4 @@
-var apiEndpoint = 'https://nathan.ngrok.app/api/get-settings?shop=' + Shopify.shop;
+var apiEndpoint = 'https://elastic.nathanmcbride.com.au/api/get-settings?shop=' + Shopify.shop;
 
 async function fetchSettings()
 {
